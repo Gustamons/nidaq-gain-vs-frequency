@@ -5,3 +5,5 @@ This repository contains a Python script which generates a sine wave using NI-DA
 At the top of the code there are changeable parameters which can be adjusted for the necessary NI-DAQ pins (output, input1, input2, dev). There are also parameters which affect the generated wave (amplitude, points) and sweep parameters (cycles, freq_start, freq_end, num_data_points). The default parameters were chosen with a low "points" value (points per wave), because I used an NI-6212, and to test higher frequencies I had to use a lower number of points per sine wave.
 
 The commented parts of the code contain plotting of the gain-vs-frequency data. It requires the matplotlib package, so by default it is commented out. An example plot is available in the repository.
+## Example plot
+![Gain vs frequency example](Example_gain_vs_frequency_plot.png)
